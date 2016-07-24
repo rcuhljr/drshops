@@ -4,6 +4,7 @@ import SearchBox from '../SearchBox';
 import DataDisplay from '../DataDisplay';
 import _ from 'underscore';
 import s from './StoreSearch.css';
+import moment from 'moment';
 
 var StoreSearch = React.createClass({
 
@@ -16,6 +17,15 @@ var StoreSearch = React.createClass({
     if(item['worn'])
         elems.push('Worn: '+item['worn'])
     return elems.join(', ')
+  },
+
+  formatCost: function(cost){
+    if(isNaN(cost))
+        return cost;
+    var newval = cost/10000;
+    if(newval >= 1)
+        return Math.round(newval)+' plat';
+    return cost + ' copper';
   },
 
   doSearch: function(queryText){
@@ -32,9 +42,10 @@ var StoreSearch = React.createClass({
                       'store_name' : store['name'],
                       'store_owner' : store['owner'],
                       'store_time' : store['open_time'] + '-' + store['close_time'],
+                      'surface' : surface,
                       'name' : item['long'],
-                      'cost' : item['cost'],
-                      'updated' : store['updated_at'],
+                      'cost' : this.formatCost(item['cost']),
+                      'updated' : moment.utc(store['updated_at']).fromNow(),
                       'extra' : this.formatExtra(item)
                     });
                   }
@@ -60,7 +71,7 @@ var StoreSearch = React.createClass({
     return (
       <div className="storeSearch">
         <h2>Store search</h2>
-        <SearchBox query={this.state.query} doSearch={this.doSearch}/>
+        <SearchBox query={this.state.query} doSearch={_.debounce(this.doSearch,250)}/>
         <DataDisplay data={this.state.filteredData}/>
       </div>
         );
