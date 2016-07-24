@@ -20,6 +20,7 @@ const config = {
   title: 'DR Player Shops',
   url: 'https://dr-scripts.firebaseapp.com/',
   project: 'dr-scripts',
+  trackingID: 'UA-81194369-1',
 };
 
 const tasks = new Map(); // The collection of automation tasks ('clean', 'build', 'publish', etc.)
