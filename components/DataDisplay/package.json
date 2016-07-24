@@ -1,0 +1,6 @@
+{
+  "name": "DataDisplay",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./DataDisplay.js"
+}

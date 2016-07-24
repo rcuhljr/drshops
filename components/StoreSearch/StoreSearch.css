@@ -1,0 +1,20 @@
+table {
+    border-collapse: collapse;
+}
+
+.storeSearch {
+    min-height: 500px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+input {
+    margin: 10px;
+}

@@ -1,0 +1,627 @@
+{
+  "7907-arch" : {
+    "city" : "Crossing",
+    "close_time" : "3am",
+    "entrance" : "arch",
+    "name" : "Teh Black Market",
+    "open_time" : "3pm",
+    "owner" : "Pucktin",
+    "root_room" : 7907,
+    "surfaces" : {
+      "deobar rack" : [ {
+        "cost" : 100000,
+        "long" : "a seishaka leaf",
+        "look" : "It is labeled \"Halt.\"",
+        "read" : "The writing is too small.  You'll have to hold the leaf to read it.",
+        "short" : "a seishaka leaf"
+      }, {
+        "cost" : 150031,
+        "long" : "a steel throwing club",
+        "look" : "You see the initials \"K. K.\" impressed into the surface of the metal.",
+        "short" : "a throwing club"
+      }, {
+        "cost" : 150035,
+        "long" : "a steel scimitar",
+        "look" : "You see the initials \"K. K.\" impressed into the surface of the metal.",
+        "short" : "a scimitar"
+      }, {
+        "cost" : 150035,
+        "long" : "a steel scimitar",
+        "look" : "You see the initials \"K. K.\" impressed into the surface of the metal.",
+        "short" : "a scimitar"
+      }, {
+        "cost" : 276447231,
+        "long" : "a bleached papyrus notecard with a message that reads: \"Ask me about fletched bows!\"",
+        "look" : "Made from a single sheet of thick papyrus, this display has been pressed in such a way as to offer three equal sides for information.",
+        "short" : "a bleached papyrus notecard"
+      }, {
+        "cost" : 20000000,
+        "long" : "a pockmarked electrum-plated greataxe",
+        "short" : "a greataxe"
+      }, {
+        "cost" : 50000000,
+        "long" : "a makeshift rioter's longbow",
+        "look" : "This primitive looking bow utilizes a length of braided sinew strung between limbs formed from what appears to be pieces of pipe and metal that have been fused together and wrapped in rawhide.",
+        "short" : "a makeshift rioter's longbow\nWorn:  Shoulder-worn."
+      }, {
+        "cost" : 4000000,
+        "long" : "a pockmarked steel broadaxe",
+        "short" : "a broadaxe"
+      }, {
+        "cost" : 150035,
+        "long" : "a steel scimitar",
+        "look" : "You see the initials \"K. K.\" impressed into the surface of the metal.",
+        "short" : "a scimitar"
+      }, {
+        "cost" : 150035,
+        "long" : "a steel scimitar",
+        "look" : "You see the initials \"K. K.\" impressed into the surface of the metal.",
+        "short" : "a scimitar"
+      }, {
+        "cost" : 150035,
+        "long" : "a steel scimitar",
+        "look" : "You see the initials \"K. K.\" impressed into the surface of the metal.",
+        "short" : "a scimitar"
+      }, {
+        "cost" : 150030,
+        "long" : "a steel scimitar",
+        "look" : "You see the initials \"K. K.\" impressed into the surface of the metal.",
+        "short" : "a scimitar"
+      }, {
+        "cost" : 150030,
+        "long" : "a steel scimitar",
+        "look" : "You see the initials \"K. K.\" impressed into the surface of the metal.",
+        "short" : "a scimitar"
+      }, {
+        "cost" : 100000,
+        "long" : "a fine scroll",
+        "look" : "It is labeled \"Calm.\"",
+        "read" : "The writing is too small.  You'll have to hold the scroll to read it.",
+        "short" : "a fine scroll"
+      } ],
+      "ironwood desk" : [ {
+        "cost" : 250000,
+        "long" : "a moldering scroll",
+        "look" : "It is labeled \"Aesandry Darlaeth.\"",
+        "read" : "The writing is too small.  You'll have to hold the scroll to read it.",
+        "short" : "a moldering scroll"
+      }, {
+        "cost" : 200000000,
+        "long" : "a large hunting pack crafted from wyvern hide",
+        "look" : "Deliberately stitched to be oversized, the pack is treated to make the interior soft while the tough scales still remain on the outside.  Sharp wyvern teeth rim the top of the opening, the largest carved into a clasp that sinks into a groove in the leather.  Heavy steel buckles line the straps, giving the container some extra reinforcement.",
+        "short" : "a large hunting pack\nWorn:  Back-worn."
+      }, {
+        "cost" : 100000,
+        "long" : "a pouch of lead pellets",
+        "short" : "a small pouch"
+      }, {
+        "cost" : 850000,
+        "long" : "an osage battle longbow with cable-backed limbs",
+        "look" : "You see the initials \"S. S.\" impressed into the surface of the wood.",
+        "short" : "a battle longbow\nWorn:  Shoulder-worn."
+      }, {
+        "cost" : 150000,
+        "long" : "a steel cinquedea",
+        "short" : "a cinquedea"
+      }, {
+        "cost" : 300000,
+        "long" : "a bronze scale balaclava",
+        "look" : "You see the initials \"S. A.\" impressed into the surface of the metal.",
+        "short" : "a scale balaclava\nWorn:  Helm-worn."
+      }, {
+        "cost" : 150000000,
+        "long" : "a glaes wide shovel",
+        "look" : "You see the initial \"A.\" impressed into the surface of the metal.",
+        "short" : "a wide shovel"
+      }, {
+        "cost" : 20000000,
+        "long" : "a sharkskin ashcloak fastened by a large spike of rhodochrosite",
+        "look" : "The exterior of the ashcloak is thickly caked with layer upon layer of grit, soot and dust.  Set against the mottled greys and blacks is a tiny, pyramid-shaped clasp of inscribed rhodochrosite.",
+        "short" : "a sharkskin ashcloak\nWorn:  Cloak-worn."
+      }, {
+        "cost" : 150000,
+        "long" : "an intricate necklace made of tiny connected spoked wheels",
+        "look" : "Each wheel is forged polished steel and has slight bends in the spokes, showing minor imperfections.  The wheels combined with the coppery chain come together as a whole to make a beautiful piece of jewelry.",
+        "short" : "an intricate wheel necklace\nWorn:  Neck-worn."
+      }, {
+        "cost" : 20000000,
+        "long" : "a rawhide ashcloak with chains of unpolished rhodochrosite-inset links",
+        "look" : "The exterior of the ashcloak is thickly caked with layer upon layer of grit, soot and dust.  Set against the mottled greys and blacks is a tiny, pyramid-shaped clasp of inscribed rhodochrosite.",
+        "short" : "a rawhide ashcloak\nWorn:  Cloak-worn."
+      }, {
+        "cost" : 150000000,
+        "long" : "a kertig ball-peen hammer",
+        "look" : "You see the initial \"A.\" impressed into the surface of the metal.",
+        "short" : "a ball-peen hammer"
+      }, {
+        "cost" : 1500000,
+        "long" : "some covellite box-jaw tongs",
+        "look" : "You see the initial \"A.\" impressed into the surface of the metal.",
+        "short" : "some box-jaw tongs"
+      }, {
+        "cost" : 300000,
+        "long" : "a steel sallet",
+        "short" : "a sallet\nWorn:  Helm-worn."
+      }, {
+        "cost" : 330000,
+        "long" : "a bronze sallet",
+        "look" : "You see the initials \"S. A.\" impressed into the surface of the metal.",
+        "short" : "a sallet\nWorn:  Helm-worn."
+      }, {
+        "cost" : 50000,
+        "long" : "a blue-purple damask dress",
+        "short" : "a blue-purple damask dress\nWorn:  Shirt-worn with armor."
+      }, {
+        "cost" : 10000000,
+        "long" : "some heavily bloodstained leathers tooled with an elaborate symbol on the chest",
+        "look" : "The dusk grey of these leathers is sullied by great splashes of reddish-brown that are most prominent around the neckline.  Dyed to such a shade of black as to perfectly match the hue of the moon Katamba on a clear night, a raised circle is centered on the chest, surrounded by crows in flight.  Small pieces of howlite stud the bracers and arms, their fine, spidery black veins making the fang-shapes appear almost like rotting teeth.",
+        "short" : "some heavily bloodstained leathers\nWorn:  Shirt-worn, but not with armor."
+      } ],
+      "oak trunk" : [ {
+        "cost" : 750000,
+        "long" : "a yellowed scroll",
+        "look" : "It is labeled \"Rage of the Clans.\"",
+        "read" : "The writing is too small.  You'll have to hold the scroll to read it.",
+        "short" : "a yellowed scroll"
+      }, {
+        "cost" : 80000000,
+        "long" : "a puffy-white targe with a reinforced design",
+        "look" : "You see the initials \"M. A.\" impressed into the surface of the mark.",
+        "short" : "a targe\nWorn:  Left-arm shield (or parry stick)."
+      }, {
+        "cost" : 3500000,
+        "long" : "a hibiscus-pink hummingbird with iridescent plumage",
+        "look" : "Utilizing a lightweight wire frame and a complex system of articulation, the lifelike bird features smoothly rounded rainbow sapphire eyes, the deep blue gems darkly glimmering with hints of viridian, violet and vermilion.  An abundance of shimmering pink feathers cover the petite creature with the most vividly colored present on its crown, throat and back.  A little hibiscus-shaped charm suspends from an incredibly small golden hoop looped around one foot.",
+        "short" : "a hibiscus-pink hummingbird\nWorn:  Generally worn."
+      }, {
+        "cost" : 25000000,
+        "long" : "a makeshift cloth hauberk made from tightly braided bedsheets",
+        "look" : "Lengths of tightly braided cloth have been painstakingly coiled and bound together to form a crude, stiff hauberk.",
+        "short" : "a makeshift cloth hauberk\nWorn:  Shirt-worn, but not with armor."
+      }, {
+        "cost" : 500000000,
+        "long" : "a leather-wrapped belt knife",
+        "look" : "Plain in overall design, the leather-wrapped hilt bears the markings of the Ranger Guild crest.",
+        "short" : "a belt knife\nWorn:  Worn attached to a belt."
+      }, {
+        "cost" : 80000000,
+        "long" : "a slender war-torn arm shield of scorched flamethorn",
+        "look" : "The beauty of this shield can be seen in its materials, thick flamethorn the color of a desert sunset inlaid with delicate haralun scrollwork.  The finer details are lost under a host of weapon and scorch marks.  Designed to be worn on the arm, the shield is narrow at the wrist and flares slightly outward.  The top edge of the shield is flat so as not to hinder vision, and a semi-circle cutout near the elbow arcs gracefully downward to meet the lower edge in a dramatic trailing point of sharpened haralun.",
+        "short" : "an arm shield\nWorn:  Left-arm shield (or parry stick)."
+      }, {
+        "cost" : 50000000,
+        "long" : "a deed for some thin arzumodine cloth",
+        "read" : "A deed for some thin arzumodine cloth reads:\n\"The bearer of this deed may tap it while inside of a crafting hall to have it traded for the material indicated.  This service is provided within the confines of the Crafting Societies due to the great size and difficulty with moving these materials.\"\n\"The bearer of this deed may tap it while inside of a crafting hall to have it traded for the material indicated.  This service is provided within the confines of the Crafting Societies due to the great size and difficulty with moving these materials.\"\nA detailed report of the item's properties are listed on the deed:\nA detailed report of the item's properties are listed on the deed:\n--=== Crafted Item Properties ===--\n--=== Crafted Item Properties ===--\nQuality:       65 (of above-average quality)\nQuality:       65 (of above-average quality)\n--=== Fabric Properties ===--\n--=== Fabric Properties ===--\nQuality:         65 (high quality)\nQuality:         65 (high quality)\nType:            arzumodine\nType:            arzumodine\nThickness:       thin\nThickness:       thin\nDurability:      65 (good durability)\nDurability:      65 (good durability)\nElectric Resist: 80 (a poor conductor of electricity)\nElectric Resist: 80 (a poor conductor of electricity)\nThermal Resist:  85 (poor at transferring heat and cold)\nThermal Resist:  85 (poor at transferring heat and cold)\nPhysical Resist: 92 (incredibly good at repelling physical blows)\nPhysical Resist: 92 (incredibly good at repelling physical blows)\nWorkability:     20 (difficult to work with)\nWorkability:     20 (difficult to work with)\nYards:           12\nYards:           12\nYou think the item is ready for reclaiming in any Society Hall by now.\nYou think the item is ready for reclaiming in any Society Hall by now.",
+        "short" : "a cloth arzumodine deed"
+      }, {
+        "cost" : 500000,
+        "long" : "a duffel bag",
+        "short" : "a duffel bag\nWorn:  Shoulder-worn."
+      }, {
+        "cost" : 100000,
+        "long" : "a moldering scroll",
+        "look" : "It is labeled \"Rend.\"",
+        "read" : "The writing is too small.  You'll have to hold the scroll to read it.",
+        "short" : "a moldering scroll"
+      }, {
+        "cost" : 500000,
+        "long" : "a moldering scroll",
+        "look" : "It is labeled \"Mental Focus.\"",
+        "read" : "The writing is too small.  You'll have to hold the scroll to read it.",
+        "short" : "a moldering scroll"
+      } ],
+      "oaken table" : [ {
+        "cost" : 100000,
+        "long" : "a fine scroll",
+        "look" : "It is labeled \"Partial Displacement.\"",
+        "read" : "The writing is too small.  You'll have to hold the scroll to read it.",
+        "short" : "a fine scroll"
+      }, {
+        "cost" : 200000000,
+        "long" : "a ghostly white Imperial weave toy sack",
+        "look" : "The pallid container has a variety of interior pockets and storage compartments suitable for an assortment of frivolous playthings.",
+        "short" : "a toy sack\nWorn:  Worn attached to a belt."
+      }, {
+        "cost" : 200000000,
+        "long" : "a blackened tyrium furrier ON DUTY badge",
+        "look" : "Engraved in the center of this silver badge is the image of a trader in negotiation with a trapper for a bundle of furs.  Below this has been stamped the insignia of the Traders' Guild.",
+        "short" : "a furrier badge\nWorn:  Generally worn."
+      }, {
+        "cost" : 400000000,
+        "long" : "a silk-shrouded infiltrator's longbow etched with the Arkarm family crest",
+        "look" : "Elven silk shrouds the longbow's limbs, obscuring its lines and exposing only the blackened bone of the riser.  The family crest consists of a ruined keep on a rocky mountainside, with blood red dye highlighting the flames that burn within the building's fragmented walls.",
+        "read" : "\"In memory of Rossman's Landing... hard!\"",
+        "short" : "an infiltrator's longbow\nWorn:  Shoulder-worn."
+      }, {
+        "cost" : 65000000,
+        "long" : "a snow-white hiro bearskin with red jade eyes",
+        "look" : "Red jade orbs occupy the eyesockets just above the large teeth that have been crafted to clench the shoulder of the wearer when worn.  The skin of this once fearsome bear is in perfect condition and without blemish.  White leather ties ensure that the heavy skin remains on the wearer.",
+        "short" : "a snow-white hiro bearskin\nWorn:  Cloak-worn."
+      }, {
+        "cost" : 20000000,
+        "long" : "a tooled moneybelt with a jeweled buckle",
+        "look" : "Intricate detailing upon the supple leather depicts a trail of coins extending along the length of the piece.  Encrusted with tiny gems, the elaborate buckle depicts the crest of the Trader's Guild.",
+        "short" : "a tooled moneybelt\nWorn:  Worn attached to a belt."
+      }, {
+        "cost" : 45000000,
+        "long" : "a mistwood atlatl with a diamondique grip",
+        "look" : "The smooth diamondique grip ensures successful release of any thrown weapons loaded against the stick.  A row of polished sharks teeth juts from the stick's side.",
+        "short" : "a mistwood atlatl"
+      }, {
+        "cost" : 75000000,
+        "long" : "some thick leathers studded with various shades of smooth tan pebbles",
+        "short" : "some thick leathers\nWorn:  Shirt-worn, but not with armor."
+      }, {
+        "cost" : 50000000,
+        "long" : "a makeshift rioter's longbow",
+        "look" : "This primitive looking bow utilizes a length of braided sinew strung between limbs formed from what appears to be pieces of pipe and metal that have been fused together and wrapped in rawhide.",
+        "short" : "a makeshift rioter's longbow\nWorn:  Shoulder-worn."
+      }, {
+        "cost" : 400000000,
+        "long" : "some worn infiltrator's leathers camouflaged with fading shades of eventide nightsilk",
+        "look" : "The naturally weathered-brown of the armor combines with the fading eventide of sunbleached nightsilk to form a camouflage for any lighting condition.  An old and faded brand of the Arkarm family crest marks the front of the leathers.  Depicted on a rocky mountainside, a ruined keep stands crumbling on the left breast.  Blood red dye has been used to highlight the flames that burn within the building's fragmented walls.",
+        "short" : "some worn leathers\nWorn:  Shirt-worn, but not with armor."
+      }, {
+        "cost" : 18000000,
+        "long" : "a haralun battle axe",
+        "look" : "You see the initials \"C. M.\" impressed into the surface of the metal.",
+        "short" : "a battle axe"
+      }, {
+        "cost" : 200000000,
+        "long" : "a sanowret crystal",
+        "look" : "The pure crystal glows a soft silver and is shaped into a perfect cube, and is reinforced by thin lines of silver in a complex lattice.",
+        "short" : "a sanowret crystal"
+      }, {
+        "cost" : 100000,
+        "long" : "an ostracon",
+        "look" : "It is labeled \"Clear Vision.\"",
+        "read" : "The writing is too small.  You'll have to hold the ostracon to read it.",
+        "short" : "an ostracon"
+      }, {
+        "cost" : 100000,
+        "long" : "a pouch of lead pellets",
+        "short" : "a small pouch"
+      } ],
+      "steel cabinet" : [ {
+        "cost" : 190000,
+        "long" : "a steel cutlass",
+        "look" : "You see the initials T.W. impressed into the surface of the metal.",
+        "short" : "a cutlass"
+      }, {
+        "cost" : 250000,
+        "long" : "a piece of hhr'lav'geluhh bark",
+        "look" : "It is labeled \"Telekinetic Throw.\"",
+        "read" : "The writing is too small.  You'll have to hold the bark to read it.",
+        "short" : "a piece of hhr'lav'geluhh bark"
+      }, {
+        "cost" : 2500000,
+        "long" : "a flowing uaro's'sugi of vivid lava samite with a long beaded fringe",
+        "look" : "A length of fabric, it is meant to be wrapped about the head, face and neck for protection from harsh, desert winds.  Yellow and red gold threads used in the warp of this richly woven samite give it the appearance of molten lava when the light catches it.  Stitched in golden thread, the viper of Ushnish writhes sinuously along the ends of the garment.  Its brilliant golden fringe is beaded with fire opals, each tiny gem seeming a drop of pure flame the fabric itself has cast forth.",
+        "short" : "a flowing uaro's'sugi\nWorn:  Generally worn."
+      }, {
+        "cost" : 100000,
+        "long" : "a wax label",
+        "read" : "There is nothing written on the wax label.",
+        "short" : "a wax label"
+      }, {
+        "cost" : 1250000,
+        "long" : "a scuffed wind-up dragon with gears for each joint",
+        "look" : "Round gears connect each of the dragon's limbs as well as its wings to its somewhat chubby reptilian body.  A section of the copper on its side, over where the ribcage would be, is removed, displaying the clockwork and delicate mechanics inside.  A round key protrudes from a small hole in its back.  It appears damaged as if somebody had carelessly dropped it.",
+        "short" : "a scuffed dragon"
+      }, {
+        "cost" : 15000000,
+        "long" : "an azure velvet cloak with scalloped swags of daylily blossoms embroidered along the hem",
+        "short" : "an azure velvet cloak\nWorn:  Shirt-worn, but not with armor."
+      }, {
+        "cost" : 5000000,
+        "long" : "a jet-black spider with an orange hourglass symbol on its abdomen",
+        "look" : "The legs of the jet-black spider look like they would be long enough to clasp to the ear, allowing it to be worn as an earring.",
+        "short" : "a jet-black spider\nWorn:  Worn as a single earring."
+      }, {
+        "cost" : 80000,
+        "long" : "a scrimshaw ivory pendant hand-etched with the image of a charging boar",
+        "look" : "Cleverly etched into the ivory is the form of a wildly charging boar, its hide sleek with sweat and its golden eyes glimmering as it chases a smaller prey.",
+        "short" : "a scrimshaw ivory pendant\nWorn:  Neck-worn."
+      }, {
+        "cost" : 2000000,
+        "long" : "a fine scroll",
+        "look" : "It is labeled \"Shadows.\"",
+        "read" : "The writing is too small.  You'll have to hold the scroll to read it.",
+        "short" : "a fine scroll"
+      }, {
+        "cost" : 210000,
+        "long" : "a steel throwing club",
+        "look" : "You see the initials \"S. L.\" impressed into the surface of the metal.",
+        "short" : "a throwing club"
+      } ]
+    },
+    "updated_at" : "2016-07-23 03:49:03 UTC"
+  },
+  "7907-door" : {
+    "city" : "Crossing",
+    "close_time" : "9pm",
+    "entrance" : "door",
+    "name" : "On A Whim",
+    "open_time" : "1pm",
+    "owner" : "Rajara",
+    "root_room" : 7907,
+    "updated_at" : "2016-07-23 03:48:43 UTC"
+  },
+  "7907-doors" : {
+    "city" : "Crossing",
+    "close_time" : "9pm",
+    "entrance" : "doors",
+    "name" : "On A Whim",
+    "open_time" : "1pm",
+    "owner" : "Rajara",
+    "root_room" : 7907,
+    "surfaces" : {
+      "brass cabinet" : [ {
+        "cost" : "1750000 ",
+        "long" : "a smoke gray velvet gris-gris bag adorned with fur",
+        "look" : "The faint fragrance of pungent herbs can still be distinguished from the now threadbare ritual bag.  Bits of white and silver fur sewn arbitrarily provide a mottled appearance against the darker material, enhanced by symmetrical sigils painted in red upon each piece.",
+        "short" : "a gris-gris bag"
+      }, {
+        "cost" : "200000 ",
+        "long" : "a red weevil",
+        "look" : "With an appearance not unlike a tiny caterpillar, the odd insect is slightly less than half an inch long.  Vibrant hues of red along its back fade into orange at the edges of its exoskeleton, and it has a complex chewing mouth with tiny mandibles.  Six tiny, almost vestigial legs poke out from very near the creature's hard front, while the back is almost worm-like.  Strangely, the creature seems to have no eyes at all, but tiny stalks where the eyes should be.  It's not moving.",
+        "short" : "a red weevil"
+      }, {
+        "cost" : "100000000 ",
+        "long" : "a tyrium thrusting blade",
+        "short" : "a thrusting blade"
+      }, {
+        "cost" : "10000000 ",
+        "long" : "a deed for a large felstone rock",
+        "read" : "A deed for a large felstone rock reads:",
+        "short" : "a rock felstone deed"
+      }, {
+        "cost" : "12000000 ",
+        "long" : "a braided diamond-hide baldric with a soulstone and animite buckle",
+        "look" : "Dyed black, white, and grey, three sparkle-toned leather lengths are woven together to form this durable, tri-toned baldric.  Prominently displayed in an oval buckle of silvery-black metal is a large soulstone, its glossy surface swirling with black and white patterns that resemble a churning thunderstorm.",
+        "short" : "a braided diamond-hide baldric",
+        "worn" : "Shoulder-worn."
+      }, {
+        "cost" : "2500000 ",
+        "long" : "a profusion of silk pipelco sasi blooms strewn with violet Reshalian tourmalines",
+        "look" : "A slender cord of twisted leaf-green satin twines through countless white-striped blossoms fashioned from wispy petals of sheer purple silk.  Small, gently faceted Reshalian tourmalines glisten within each delicate bloom's heart, tucked into place and secured with a bright curl of silversteel.  Seeming to glow with an unnatural light, the gems display a deep, vibrant violet that complements the diaphanous flowers.",
+        "short" : "a profusion of pipelco sasi blooms",
+        "worn" : "Placed in hair."
+      }, {
+        "cost" : "2200000 ",
+        "long" : "some vibrant blue gold bands",
+        "look" : "Bright gold marbling streaks across the surface of three boldly hued cobalt blue metal bands, each designed to be threaded onto the wearer's mustache.",
+        "short" : "some blue gold bands",
+        "worn" : "Generally worn."
+      }, {
+        "cost" : "10000000 ",
+        "long" : "a heavy darkstone tackle box with an enameled dragonfly clasp",
+        "look" : "The sturdy material is masterfully crafted with no rough edges or blemishes in its surface.  Gleaming silver outlines the colorful clasp, a stark contrast to the dark metal beneath.",
+        "short" : "a darkstone tackle box"
+      }, {
+        "cost" : "20000000 ",
+        "long" : "a massive orichalcum bar",
+        "short" : "a massive orichalcum bar"
+      }, {
+        "cost" : "750000 ",
+        "long" : "a watered-steel longsword with a brass crossguard",
+        "look" : "The blade has been polished and acid-etched to bring forth the attractive watered pattern locked within its skillfully wrought metal.  The beauty of the steel is accented by a flaring brass crossguard curved in opposing directions and cut with decorative grooves.",
+        "short" : "a watered-steel longsword"
+      }, {
+        "cost" : "15000000 ",
+        "long" : "a lovely turbaurs kimono faintly tinged with the ethereal hues of faesoul blossoms",
+        "look" : "These exquisitely beautiful robes are made from many layers of a fragile fabric that blooms fibers in the pale tones of faesoul petals interspersed with faintly colored blue, white, and green hues.  Designed to wrap around the body left side over right, the garment has a T-shaped silhouette and an ankle-length hem.  A wide, matching turbaurs sash secures the waist, its sheer fabric layered to display perfectly preserved faesouls with slightly downward sloping petals and delicately fringed filaments.",
+        "short" : "a lovely turbaurs kimono",
+        "worn" : "Shirt-worn with armor."
+      } ],
+      "smokewood chest" : [ {
+        "cost" : "120000 ",
+        "long" : "a sinuous cocobolo bracelet engraved with numerous draconaeia blossoms",
+        "look" : "Emitting a faint floral scent, the fine textured wood has been meticulously carved and burnished to a high sheen.  Curly stamens, carved into the wood and rubbed with flame-red cinnabar, flow outwards from each of the scaly, orchid-like flowers, giving them the appearance of very stylized, fire-breathing dragon's heads.",
+        "short" : "a sinuous cocobolo bracelet",
+        "worn" : "Wrist-worn."
+      }, {
+        "cost" : "120000 ",
+        "long" : "a sprig of sunny yellow cat's-ear caught within a spherical glass pendant",
+        "look" : "Air bubbles swirl up and around the sphere, circling the bright yellow flower suspended at its core.  A pair of gilded leaves dangle from the simple ring connecting the pendant and narrow gold chain.",
+        "short" : "a sprig of yellow cat's-ear",
+        "worn" : "Neck-worn."
+      }, {
+        "cost" : "1000000 ",
+        "long" : "a set of lavishly carved dragonfire amber combs",
+        "short" : "a set of amber combs",
+        "worn" : "Placed in hair."
+      }, {
+        "cost" : "30000000 ",
+        "long" : "a trio of clear dwalgim starflowers with black diamond centers",
+        "look" : "Each of the three flowers is composed of five smoky, semi-opaque gemstone petals arranged in a star-shaped formation around a rounded pitch-black diamond.  Sticky adhesive adorns the back of each shimmering starflower.",
+        "short" : "a trio of dwalgim starflowers",
+        "worn" : "Generally worn."
+      }, {
+        "cost" : "1250000 ",
+        "long" : "a Beacon-of-Hope orchid fashioned from deep magenta-hued dergatine",
+        "look" : "Lush folds of smooth velvet-like fabric are extremely soft to the touch, the striking color nearly identical to the exquisite bloom it seeks to duplicate.  The matte orchid is affixed to a squared glaes hairstick, the near-translucent metal glistening with glossy blue-black hues.  Four small crimson emeralds are set into each side of the slender stick, the square-cut gems exhibiting little fire within their rich red depths.",
+        "short" : "a Beacon-of-Hope orchid",
+        "worn" : "Placed in hair."
+      }, {
+        "cost" : "80000000 ",
+        "long" : "a polished sungold sundial suspended on a molten-core diamond fob",
+        "look" : "Crafted entirely in sungold, the intricate timepiece showcases the stunning sunrise hues and natural warmth that are hallmark qualities of the rare metal.  A sun-shaped style rises from the center of a twelve-pointed star, while additional light ray engravings serve as marks to note the anlaen.  For a finishing touch, the sundial is attached to a chain studded with faceted molten-core diamonds, allowing it to be worn at the wearer's convenience.",
+        "read" : "You get the feeling that any readings obtained indoors would be highly inaccurate.",
+        "short" : "a polished sungold sundial",
+        "worn" : "Worn attached to a belt."
+      }, {
+        "cost" : "5000000 ",
+        "long" : "some polychromatic silveress leggings with niniam and rainbow sapphire hip chains",
+        "look" : "Cut to fit just below the wearer's natural waist, this garment has a sleek silhouette and an extremely close fit through the legs.  Made from a soft textile that looks dipped in liquid silver, the leggings are marbled with slight undertones that range the spectrum of the rainbow.  Delicate niniam chains adorn the hips, designed to drape in tiers with the tips weighted by rainbow sapphire briolettes.  Each heavily faceted pendant is a dark blue that subtly melds into vibrant shades of violet and emerald.",
+        "short" : "some silveress leggings",
+        "worn" : "Generally worn."
+      }, {
+        "cost" : "30000000 ",
+        "long" : "a strapless bodice of alternating dark and pale jaspe panels edged by midnight onyx",
+        "look" : "The sharply peaked sweetheart bodice has a low plunge, its angular lines echoed by a waistline that dips to a vee.  Made from jaspe in starkly contrasting hues, the garment is crossed with shadowed and amorphous, opaque streaks.  Silveress is visible beneath the airy, semi-sheer fabric, its liquid silver gleam muted and mottled by the overlay to lend it a mercurial appearance.  Midnight onyx is flush-set with external animite boning, its dramatic black and white coloration resembling abstract artwork.",
+        "short" : "a strapless bodice",
+        "worn" : "Shirt-worn with armor."
+      }, {
+        "cost" : "500000 ",
+        "long" : "a polished pearl earring set with tiny fae wings",
+        "look" : "Reminiscent of oval-shaped leaves, the four fae wings surround the earring and are painted a light blue hue.",
+        "short" : "a polished pearl earring",
+        "worn" : "Worn as a single earring."
+      }, {
+        "cost" : "400000 ",
+        "long" : "a network of spiderweb jasper beads dangling pale glaes charms",
+        "look" : "Rendered in the glossy, near-translucent metal for an almost ethereal effect are delicate longbodied cellar spiders clinging to platinum filaments as if to strands of webbing.",
+        "short" : "a network of jasper beads",
+        "worn" : "Placed in hair."
+      }, {
+        "cost" : "120000 ",
+        "long" : "a wide lacy choker dotted with tiny enameled forget-me-nots",
+        "look" : "Tiny five-lobed flowers tinted in shades of pink, blue, and violet lay scattered across the delicate webbing of creamy white lace, each delicate blossom set with a pale lemon-yellow jewel at its center.  A slightly larger bloom sways from the end of the choker's simple ring and toggle clasp.",
+        "short" : "a wide lacy choker",
+        "worn" : "Neck-worn."
+      }, {
+        "cost" : "10000000 ",
+        "long" : "an assortment of glaes teardrops and wine-red erythraean lotus blossoms",
+        "look" : "Opaque, wine-red cabochons compose each delicately tapered petal.  Forming two large lotus blossoms, the stones display a brilliant chatoyancy, the luminous streaks reflecting light across the center of the gem.  Resembling parts of a paisley pattern, glossy blue-black metal forms droplet-shaped adornments, each set with tiny jewels in a subtle range of rich red hues.  Gathered together, bejeweled bits are backed with natural adhesive, allowing them to be placed artfully upon the wearer's face.",
+        "short" : "some glaes teardrops",
+        "worn" : "Generally worn."
+      }, {
+        "cost" : "200000 ",
+        "long" : "an iridescent covellite vine intertwined with a dozen colorful clematis flowers",
+        "look" : "Formed from intricate birdcage chain, the flexible vine is composed entirely of intensely iridescent indigo-blue metal.  Long-petaled samite flowers twine around the length of shimmering covellite.  Woven with delicate gold threads that impart a subtle, burnished sheen, each of the blossoms is dyed an alluring shade of crimson, azure, magenta or violet-blue.",
+        "short" : "an iridescent covellite vine",
+        "worn" : "Placed in hair."
+      } ],
+      "teak armoire" : [ {
+        "cost" : "80000 ",
+        "long" : "a flowing white pirate shirt with black embroidery along the cuffs",
+        "look" : "Along the tightly bound cuffs are silk threads stitched to form the images of skulls and crossbones.  A slight hint of crimson gleams from the sunken eye sockets.",
+        "short" : "a flowing white pirate shirt",
+        "worn" : "Shirt-worn with armor."
+      }, {
+        "cost" : "16000000 ",
+        "long" : "a high-hitched pair of treasureweave knickerbockers in mouth-watering berry shades",
+        "look" : "Looking particularly singed in low lighting, these baggy-kneed trousers are tailored from a homespun textile made with a variety of materials woven together to create a colorful, concentric pattern that resembles the top layer of a fruit tart.  The outer circle is bibbleberry-hued spun glitter, its deep indigo dappled by mistglass and damite flecks.  Thornweave dyed the blood-red of abule berries rings a shadesatin center, which shifts in purplish-black taffelberry tones depending on ambient light.",
+        "short" : "a pair of treasureweave knickerbockers",
+        "worn" : "Pants-worn."
+      }, {
+        "cost" : "8000000 ",
+        "long" : "a dusky purple paisley madun doublet threaded with night diamonds",
+        "look" : "This short, close-fitting garment is woven with a low relief pattern of curving, feather-shaped figures minutely detailed in dark shades of purple and grey.  The tarnished black threads in the brocade's weft cast the paisley print in a dark sheen, resulting in an effect that looks as if night were falling across the cloth.  In dim lighting, countless tiny specks of silver are visible within the midnight purple diamond orbs that highlight the stylized design, the gems set strategically to draw the eye.",
+        "short" : "a paisley madun doublet",
+        "worn" : "Shirt-worn with armor."
+      }, {
+        "cost" : "12000000 ",
+        "long" : "some dark and pale harlequin diamond-hide boots with black suede heel and toe caps",
+        "look" : "This tall footwear is cobbled from durable leather with a sparkled tone, dyed with black and white diamonds to create a harlequin pattern.  Each boot features animite eyelets channel-set with a spiral of midnight onyx, but the dark lacing on the left is mismatched with the pale cord securing the right.  Angled panels of plain ebon suede finish the heels and cap the toes, lending a touch of simplicity to the whimsical styling.",
+        "short" : "some diamond-hide boots",
+        "worn" : "Foot-worn."
+      }, {
+        "cost" : "200000 ",
+        "long" : "a cream-colored silk wedding gown with a long fan-tail train",
+        "look" : "Delicate embroidery in ivory thread covers the surface of this fitted gown.  The stitches form repeating wave patterns designed to enhance the curves of the wearer subtly without drawing overt attention to any one feature.  The train is longer than the gown itself, and parts up the center in a unique V-shape, bringing to mind the contour of the tail of an exotic fish.",
+        "short" : "a cream-colored wedding gown",
+        "worn" : "Shirt-worn with armor."
+      }, {
+        "cost" : "20000000 ",
+        "long" : "an elaborate off-the-shoulder gown of thistle-hued satin layered with beaded lace",
+        "look" : "Beginning in narrow strips atop the boning of the corseted bodice, beaded, lacy panels provide a bit of additional sparkle that builds in intensity within the tiered layers of skirting that have been designed to swirl about the wearer's legs to dramatic effect.   Amongst the more common crystals is a smattering of tiny multi-faceted ulhari prisms lending their wildly shifting hues to the tea-tinged lace, tying in perfectly with the soft purple of the satin itself.",
+        "short" : "an elaborate gown",
+        "worn" : "Shirt-worn with armor."
+      }, {
+        "cost" : "1000000 ",
+        "long" : "a flared skirt of pastel pink lotusweave",
+        "look" : "Crisp pleats give each panel a uniform appearance as the soft coloration is enhanced by the lustrous fabric.",
+        "short" : "a flared skirt",
+        "worn" : "Pants-worn."
+      }, {
+        "cost" : "4000000 ",
+        "long" : "a night diamond halter-necked trouser dress of ebony and ivory spun glitter",
+        "look" : "Rows of marquise-cut night diamonds wrap around the wearer's neck in a bejeweled choker that anchors the front of the backless gown.  Broad lapels in glittering black fabric frame the stark white bodice before nipping in at the waist and then flaring out over the hips and down the legs in wide-legged split skirt.",
+        "short" : "a halter-necked trouser dress",
+        "worn" : "Shirt-worn with armor."
+      }, {
+        "cost" : "1500000 ",
+        "long" : "a pair of black and white gloves set with a spiral of the opposite hue in each palm",
+        "look" : "These dress gloves are tailored for a very snug fit, designed to preserve the wearer's dexterity without sacrificing comfort or style.  While both are made from durable, sparkle-toned leather, the left is dyed a rich black and its mate is a stark white shade, a perfectly matched mismatch by some eccentric glover.  Inset into each palm is a spiral of diamond-hide opposite the glove's primary coloration, the clever construction achieving a mesmerizing optical effect.",
+        "short" : "a pair of gloves",
+        "worn" : "Generally worn."
+      }, {
+        "cost" : "800000 ",
+        "long" : "a stormy linen shirt with metallic embellishments",
+        "look" : "The image of an ocean maelstrom is stitched upon the entirety of the upper chest pocket using slender threads of steelsilk and platinum whorled with dark, watery tones to create the chaotic, churning whirlpool.  Each of the shirt's small buttons has been crafted from a tempest sapphire to complete the stormy theme.",
+        "short" : "a stormy linen shirt",
+        "worn" : "Shirt-worn with armor."
+      }, {
+        "cost" : "180000 ",
+        "long" : "some lustrous indigo steelsilk trousers with dangling silver laces",
+        "look" : "Cut for a loose fit, the wide legs allow for freedom of movement and maximum comfort.  The resilient fabric holds a subtle sheen that highlights the lush grape hue at every fold.  After winding through the belt holes and looping into a bow, the long silver cords are left to swing freely along the front.",
+        "short" : "some indigo steelsilk trousers",
+        "worn" : "Pants-worn."
+      } ],
+      "waterwheel" : [ {
+        "cost" : "4000000 ",
+        "long" : "an albarco balalaika set with smoke rubies along the fretboard",
+        "look" : "Made of polished albarco, the purplish brown wood has been lacquered to make the dark streaks in the grain stand out even more.  On the instrument itself, a detailed acid-etched engraving of the history of the Gor'Togs, from creation to enslavement, to eventual freedom and beyond has been burned into the dark wood.  Dark smoke rubies have been inlaid along the fretboard to give a hint of color.",
+        "short" : "an albarco balalaika"
+      }, {
+        "cost" : "50000 ",
+        "long" : "a rumpled busker's kit with jester mask-shaped buckles",
+        "look" : "Comedy and tragedy masks crafted from burnished bronze form the buckles for the bag.",
+        "short" : "a busker's kit",
+        "worn" : "Back-worn."
+      }, {
+        "cost" : "2500000 ",
+        "long" : "a profusion of silk pipelco sasi blooms strewn with violet Reshalian tourmalines",
+        "look" : "A slender cord of twisted leaf-green satin twines through countless white-striped blossoms fashioned from wispy petals of sheer purple silk.  Small, gently faceted Reshalian tourmalines glisten within each delicate bloom's heart, tucked into place and secured with a bright curl of silversteel.  Seeming to glow with an unnatural light, the gems display a deep, vibrant violet that complements the diaphanous flowers.",
+        "short" : "a profusion of pipelco sasi blooms",
+        "worn" : "Placed in hair."
+      }, {
+        "cost" : "120000 ",
+        "long" : "a Kronar-shaped amber lens suspended from a golden chain",
+        "short" : "a Kronar-shaped lens",
+        "worn" : "Neck-worn."
+      }, {
+        "cost" : "10000 ",
+        "long" : "a bright red hat with a bill sticking out",
+        "look" : "Emblazoned across the front of the cap, right above the jutting bill, is a brilliant white embroidered chicken sitting on a nest.",
+        "read" : "Brought to you by your local Elanthian poultry producers.",
+        "short" : "a red hat",
+        "worn" : "Head-worn with armor."
+      }, {
+        "cost" : "500000 ",
+        "long" : "a miniature chubby clown sporting an overly large rainbow wig",
+        "look" : "His colorful and obviously fake hair sticks out in all directions due to the springy curls it's twisted into.  He wears a pocketed bodysuit dyed white with bright red polka dots all over it.  A pair of red shoes more than twice the size of his feet and a matching nose complete his look.",
+        "short" : "a miniature chubby clown"
+      }, {
+        "cost" : "70000 ",
+        "long" : "a carved pine stonebow with a pale yellow leather sling",
+        "look" : "Burned into the stock of the stonebow is a mechanical looking spider inset with deep red ruby eyes.",
+        "short" : "a carved pine stonebow",
+        "worn" : "Shoulder-worn."
+      }, {
+        "cost" : "1250000 ",
+        "long" : "a small platinum jewelry chest inset with a sparkling array of gemstone swirls",
+        "look" : "Deep red garnets and vibrant green peridots dance in playful swirls across the chest's brushed platinum lid.  A small ring of milky moonstone surrounds a sturdy blued-steel lock in the base.",
+        "short" : "a platinum jewelry chest"
+      }, {
+        "cost" : "1000 ",
+        "long" : "some swirled purple and green liquid in a red-rimmed bottle",
+        "look" : "The two colors of liquid somehow manage to stay quite separate, despite being in the same bottle.",
+        "short" : "a bottle of purple liquid"
+      }, {
+        "cost" : "500000 ",
+        "long" : "a bejeweled silver scepter",
+        "look" : "You should hold that if you want to get a closer look at it.",
+        "short" : "a bejeweled silver scepter"
+      }, {
+        "cost" : "1569325055 ",
+        "long" : "a bright white notecard with a message that reads: \"Rajara's For Profit Auction coming soon! See the LostOnAWhim Catalog for more information!\"",
+        "look" : "Made from a single sheet of thick papyrus, this display has been pressed in such a way as to offer three equal sides for information.",
+        "short" : "a bright white notecard"
+      } ]
+    },
+    "updated_at" : "2016-07-23 01:37:44 UTC"
+  }
+}
