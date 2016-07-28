@@ -71,6 +71,7 @@ var StoreSearch = React.createClass({
     return (
       <div className="storeSearch">
         <h2>Store search</h2>
+        <div>Begin typing to view matching items.</div>
         <SearchBox query={this.state.query} doSearch={_.debounce(this.doSearch,250)}/>
         <DataDisplay data={this.state.filteredData}/>
       </div>

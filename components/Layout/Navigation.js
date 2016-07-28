@@ -24,6 +24,7 @@ class Navigation extends React.Component {
   render() {
     return (
       <nav className="mdl-navigation" ref={node => (this.root = node)}>
+        <Link className="mdl-navigation__link" to="https://lichproject.org/">Powered By Lich</Link>
         <Link className="mdl-navigation__link" to="/">Home</Link>
       </nav>
     );
