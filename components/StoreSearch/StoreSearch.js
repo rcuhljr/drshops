@@ -39,6 +39,7 @@ var StoreSearch = React.createClass({
                 _.each(item_set, function(item){
                   if(item['long'].toLowerCase().indexOf(queryText)!=-1){
                     queryResult.push({
+                      'city_name' : store['city'],
                       'store_name' : store['name'],
                       'store_owner' : store['owner'],
                       'store_time' : store['open_time'] + '-' + store['close_time'],
@@ -72,7 +73,7 @@ var StoreSearch = React.createClass({
       <div className="storeSearch">
         <h2>Store search</h2>
         <div>Begin typing to view matching items.</div>
-        <SearchBox query={this.state.query} doSearch={_.debounce(this.doSearch,250)}/>
+        <SearchBox doSearch={_.debounce(this.doSearch,250)}/>
         <DataDisplay data={this.state.filteredData}/>
       </div>
         );
