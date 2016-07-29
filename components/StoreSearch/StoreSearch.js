@@ -32,28 +32,30 @@ var StoreSearch = React.createClass({
         queryText = queryText.toLowerCase();
         //get query result
         var queryResult=[];
-
-        _.each(this.props.data, function(store, key, set){
-            if(store['surfaces']){
-              _.each(store['surfaces'], function(item_set, surface ){
-                _.each(item_set, function(item){
-                  if(item['long'].toLowerCase().indexOf(queryText)!=-1){
-                    queryResult.push({
-                      'city_name' : store['city'],
-                      'store_name' : store['name'],
-                      'store_owner' : store['owner'],
-                      'store_time' : store['open_time'] + '-' + store['close_time'],
-                      'surface' : surface,
-                      'name' : item['long'],
-                      'cost' : this.formatCost(item['cost']),
-                      'updated' : moment.utc(store['updated_at']).fromNow(),
-                      'extra' : this.formatExtra(item)
-                    });
-                  }
+    
+        if (queryText!=''){ //If query string is deleted, do not display entire database
+            _.each(this.props.data, function(store, key, set){
+                if(store['surfaces']){
+                _.each(store['surfaces'], function(item_set, surface ){
+                    _.each(item_set, function(item){
+                    if(item['long'].toLowerCase().indexOf(queryText)!=-1){
+                        queryResult.push({
+                        'city_name' : store['city'],
+                        'store_name' : store['name'],
+                        'store_owner' : store['owner'],
+                        'store_time' : store['open_time'] + '-' + store['close_time'],
+                        'surface' : surface,
+                        'name' : item['long'],
+                        'cost' : this.formatCost(item['cost']),
+                        'updated' : moment.utc(store['updated_at']).fromNow(),
+                        'extra' : this.formatExtra(item)
+                       });
+                    }
+                    }, this)
                 }, this)
-              }, this)
-            }
-        }, this);
+                }
+            }, this);
+         };
 
         this.setState({
             query:queryText,
