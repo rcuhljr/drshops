@@ -4,7 +4,10 @@ title: Dragonrealms Player Shops
 
 ## Welcome!
 
-Please bear with us as we improve our data collection to deal with irregularities in the shop verb.
-Once the Crossing is ironed out we'll expand to Shard and Riverhaven.
+Please report any errors you find with the data [here][github issues].
 
+All prices are currently displayed in Kronars, shop openeing times are all EST.
+
+
+[github issues]: https://github.com/rcuhljr/drshops/issues
 

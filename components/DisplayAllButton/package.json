@@ -1,0 +1,6 @@
+{
+  "name": "DisplayAllButton",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./DisplayAllButton.js"
+}

@@ -9,7 +9,13 @@ var SearchBox = React.createClass({
     },
 
     render:function (){
-        return <input type="text" ref="searchInput" placeholder="Item name" onChange={this.doSearch}/>
+        var optionals = {
+        };
+        if(!this.props.searchMode){
+            optionals.disabled = true;
+            optionals.value = '';
+        }
+        return <input type="text" ref="searchInput" placeholder="Item name" onChange={this.doSearch} {...optionals}/>
     }
 
 });

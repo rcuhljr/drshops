@@ -2,6 +2,7 @@
 import React from 'react';
 import SearchBox from '../SearchBox';
 import DataDisplay from '../DataDisplay';
+import DisplayAllButton from '../DisplayAllButton';
 import _ from 'underscore';
 import s from './StoreSearch.css';
 import moment from 'moment';
@@ -28,31 +29,39 @@ var StoreSearch = React.createClass({
     return cost + ' copper';
   },
 
+  formatData: function(store, surface, item){
+    return {
+        'city_name' : store['city'],
+        'store_name' : store['name'],
+        'store_owner' : store['owner'],
+        'store_time' : store['open_time'] + '-' + store['close_time'],
+        'surface' : surface,
+        'name' : item['long'],
+        'cost' : this.formatCost(item['cost']),
+        'updated' : moment.utc(store['updated_at']).fromNow(),
+        'extra' : this.formatExtra(item)
+       };
+  },
+
+  itemMatchesQuery: function(item, queryText){
+    return item['long'].toLowerCase().indexOf(queryText) > -1;
+  },
+
   doSearch: function(queryText){
         queryText = queryText.toLowerCase();
         //get query result
         var queryResult=[];
-    
-        if (queryText!=''){ //If query string is deleted, do not display entire database
-            _.each(this.props.data, function(store, key, set){
-                if(store['surfaces']){
-                _.each(store['surfaces'], function(item_set, surface ){
-                    _.each(item_set, function(item){
-                    if(item['long'].toLowerCase().indexOf(queryText)!=-1){
-                        queryResult.push({
-                        'city_name' : store['city'],
-                        'store_name' : store['name'],
-                        'store_owner' : store['owner'],
-                        'store_time' : store['open_time'] + '-' + store['close_time'],
-                        'surface' : surface,
-                        'name' : item['long'],
-                        'cost' : this.formatCost(item['cost']),
-                        'updated' : moment.utc(store['updated_at']).fromNow(),
-                        'extra' : this.formatExtra(item)
-                       });
-                    }
+
+        if (queryText.length > 2){ //If query string is deleted, do not display entire database
+            _.each(this.props.data, function(store, key, set){ //Look at all stores
+                if(store['surfaces']){ //If the store has item surfaces
+                    _.each(store['surfaces'], function(item_set, surface ){ //Look at each surface
+                        _.each(item_set, function(item){ // Look at each item on the surface
+                            if(this.itemMatchesQuery(item, queryText)){
+                                queryResult.push(this.formatData(store, surface, item));
+                            }
+                        }, this)
                     }, this)
-                }, this)
                 }
             }, this);
          };
@@ -63,10 +72,44 @@ var StoreSearch = React.createClass({
         })
     },
 
+    getAll: function(){
+        var queryResult=[];
+        _.each(this.props.data, function(store, key, set){ //Look at all stores
+            if(store['surfaces']){ //If the store has item surfaces
+                _.each(store['surfaces'], function(item_set, surface ){ //Look at each surface
+                    _.each(item_set, function(item){ // Look at each item on the surface
+                        queryResult.push(this.formatData(store, surface, item));
+                    }, this)
+                }, this)
+            }
+        }, this);
+
+        return queryResult;
+    },
+        //#TODO Test escape
+
+    toggleSearchMode:function(){
+        if (this.state.searchMode){
+            this.setState({
+                query:'',
+                filteredData: this.getAll(),
+                searchMode: !this.state.searchMode
+            });
+        } else {
+            this.setState({
+                query:'',
+                filteredData: [],
+                searchMode: !this.state.searchMode
+            });
+        }
+
+    },
+
     getInitialState:function(){
         return{
             query:'',
-            filteredData: []
+            filteredData: [],
+            searchMode:true
         }
     },
 
@@ -74,8 +117,9 @@ var StoreSearch = React.createClass({
     return (
       <div className="storeSearch">
         <h2>Store search</h2>
-        <div>Begin typing to view matching items.</div>
-        <SearchBox doSearch={_.debounce(this.doSearch,250)}/>
+        <div>Begin typing to view matching items, or toggle to display all items (Warning: Slow)</div>
+        <SearchBox doSearch={_.debounce(this.doSearch,250)} searchMode={this.state.searchMode}/>
+        <DisplayAllButton toggleSearchMode={this.toggleSearchMode} searchMode={this.state.searchMode}/>
         <DataDisplay data={this.state.filteredData}/>
       </div>
         );
