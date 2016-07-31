@@ -67,7 +67,6 @@ var StoreSearch = React.createClass({
          };
 
         this.setState({
-            query:queryText,
             filteredData: queryResult
         })
     },
@@ -91,14 +90,13 @@ var StoreSearch = React.createClass({
     toggleSearchMode:function(){
         if (this.state.searchMode){
             this.setState({
-                query:'',
                 filteredData: this.getAll(),
-                searchMode: !this.state.searchMode
+                searchMode: !this.state.searchMode,
+                oldData: this.state.filteredData
             });
         } else {
             this.setState({
-                query:'',
-                filteredData: [],
+                filteredData: this.state.oldData,
                 searchMode: !this.state.searchMode
             });
         }
@@ -107,7 +105,6 @@ var StoreSearch = React.createClass({
 
     getInitialState:function(){
         return{
-            query:'',
             filteredData: [],
             searchMode:true
         }
