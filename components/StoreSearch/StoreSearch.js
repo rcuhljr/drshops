@@ -114,10 +114,10 @@ var StoreSearch = React.createClass({
     return (
       <div className="storeSearch">
         <h2>Store search</h2>
-        <div>Begin typing to view matching items, or toggle to display all items (Warning: Slow)</div>
+        <div>Begin typing to view matching items, or toggle to display all items (Warning: Slow). Click a column header to sort by that column.</div>
         <SearchBox doSearch={_.debounce(this.doSearch,250)} searchMode={this.state.searchMode}/>
         <DisplayAllButton toggleSearchMode={this.toggleSearchMode} searchMode={this.state.searchMode}/>
-        <DataDisplay data={this.state.filteredData}/>
+        <DataDisplay data={this.state.filteredData} />
       </div>
         );
   }
