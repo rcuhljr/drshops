@@ -30,6 +30,19 @@ var StoreSearch = React.createClass({
   },
 
   formatData: function(store, surface, item){
+    if (store['open_time']==undefined || store['close_time']==undefined){
+        return {
+        'city_name' : store['city'],
+        'store_name' : store['name'],
+        'store_owner' : store['owner'],
+        'store_time' : 'By Appointment',
+        'surface' : surface,
+        'name' : item['long'],
+        'cost' : this.formatCost(item['cost']),
+        'updated' : moment.utc(store['updated_at']).fromNow(),
+        'extra' : this.formatExtra(item)
+        }
+    } else
     return {
         'city_name' : store['city'],
         'store_name' : store['name'],
